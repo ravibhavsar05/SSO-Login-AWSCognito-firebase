@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "jsx": "react-native",
+    "strict": false,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "../*": [
+        "src/*/index",
+        "src/*"
+      ]
+    },
+    "resolveJsonModule": true
+  }
+}
